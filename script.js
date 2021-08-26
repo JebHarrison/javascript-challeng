@@ -5,24 +5,26 @@ function calculateYearsUntilRetirement(event){
 
 }
 
-function getGreetingInFrench(event){
+function getGreetingInFrench(event) {
     const greeting = event.taget.value;
 
-    if (greeting == 'hello'){
-    alert('bonjour')
-    }
-    else if (greeting == 'goodbye'){
-    alert (greeting == 'Au revior')
+    
+    if (greeting == "Hello"){
+        alert('Bonjour')
+    } else if (greeting == 'Goodbye'){
+    alert('Au revior')
     } else {
         alert('not recognised')
     }    
 }
 
 function goalsToWin(event){
-    const currentgoals = event.taget.value
+    const goalsToWin = event.taget.value
     
-    if (goals == '50' )
+    alert(goalsToWin)
+    if (goals == '50' ){
     alert('You Won')
+    }
 }
 
 
@@ -30,5 +32,6 @@ function getGreetingInSpanish(event){
     const greeting =event.target.value
 }
 
-if (greeting == 'Hello')
+if (greeting == 'Hello'){
 alert ('Hola')
+}
