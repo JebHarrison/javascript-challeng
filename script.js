@@ -17,3 +17,18 @@ function getGreetingInFrench(event){
         alert('not recognised')
     }    
 }
+
+function goalsToWin(event){
+    const currentgoals = event.taget.value
+    
+    if (goals == '50' )
+    alert('You Won')
+}
+
+
+function getGreetingInSpanish(event){
+    const greeting =event.target.value
+}
+
+if (greeting == 'Hello')
+alert ('Hola')
