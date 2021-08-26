@@ -9,7 +9,7 @@ function getGreetingInFrench(event) {
     const greeting = event.taget.value;
 
     
-    if (greeting == "Hello"){
+    if (greeting == 'Hello') {
         alert('Bonjour')
     } else if (greeting == 'Goodbye'){
     alert('Au revior')
