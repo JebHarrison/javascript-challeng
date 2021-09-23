@@ -35,4 +35,8 @@ if (age => 18 && "is British"){
 }
 
 // if you hungry, log "eat cookie" else 'dont eat cookie
-
+if (hungry = true){
+console.log("eat cookie")
+}else { (hungry != true)
+    console.log("don't eat cookie")
+}
