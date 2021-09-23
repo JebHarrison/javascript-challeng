@@ -18,3 +18,5 @@ var age = age > 65;
 console.log("time to retire") 
 
 // If hasCovid, log "time to isolate", else "keep social distancing"
+var hasCovid = console.log("time to isolate")
+var doesntHaveCovid = console.log("keep social distancing")
