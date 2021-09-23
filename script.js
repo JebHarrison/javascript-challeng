@@ -9,3 +9,6 @@ const greeting = "Bonjour";
 console.log("comment ca va") 
 
 // If a score reaches 10, log "you won the game"
+
+const score = 10;
+console.log("you won the game")
