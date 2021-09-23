@@ -34,9 +34,14 @@ if (age => 18 && "is British"){
     console.log("you can vote in the next election")
 }
 
-// if you hungry, log "eat cookie" else 'dont eat cookie
+// if your hungry, log "eat cookie" else 'dont eat cookie
 if (hungry = true){
-console.log("eat cookie")
-}else { (hungry != true)
-    console.log("don't eat cookie")
+    console.log("eat the cookie")
+} if  (hungry = false);
+    console.log("dont eat cookie")
+
+
+if (taste = true){
+    console.log("Please enjoy")
 }
+
