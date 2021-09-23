@@ -26,4 +26,7 @@ if (hasCovid = true) {
     console.log("keep social distancing")
 }
 
-// If age, greater than 18, and is Britsh, log "you can vote in next election"
+// If age, greater than 18, and is Britsh, log "you can vote in the next election"
+if (age => 18 && "is British"){
+    console.log("you can vote in the next election")
+}
