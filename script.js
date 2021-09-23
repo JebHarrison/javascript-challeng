@@ -12,3 +12,7 @@ console.log("comment ca va")
 
 const score = 10;
 console.log("you won the game")
+
+// If age is greater than 65, log "time to retire"
+var age = 65;
+console.log("time to retire") 
