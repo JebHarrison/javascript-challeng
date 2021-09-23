@@ -20,3 +20,8 @@ console.log("time to retire")
 // If hasCovid, log "time to isolate", else "keep social distancing"
 // var hasCovid = console.log("time to isolate")
 // var doesntHaveCovid = console.log("keep social distancing")
+if (hasCovid = true) {
+    console.log('time to isolate')
+} else (hasCovid = false); {
+    console.log("keep social distancing")
+}
