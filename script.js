@@ -17,6 +17,7 @@ console.log("you won the game")
 
 // If age is greater than 65, log "time to retire"
 var age = age > 65;
+if (age => 65);
 console.log("time to retire") 
 
 // If hasCovid, log "time to isolate", else "keep social distancing"
