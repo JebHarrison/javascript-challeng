@@ -33,3 +33,6 @@ if (hasCovid = true) {
 if (age => 18 && "is British"){
     console.log("you can vote in the next election")
 }
+
+// if you hungry, log "eat cookie" else 'dont eat cookie
+
