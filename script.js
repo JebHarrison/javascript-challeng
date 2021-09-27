@@ -49,3 +49,11 @@ function calculateYearsUntilRetirement(event){
     const yearsLeft =  65 - currentAge;  
     alert(inputValue)
 }
+
+function GetGreetingInFrench(event){
+    const greeting = event.target.value;{
+
+    if (greeting = "hello")
+    alert("benjour")
+}
+}
