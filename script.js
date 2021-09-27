@@ -65,4 +65,13 @@ function GetGreetingInFrench(event){
 
 function LearnSpanishBaby(event){
     const learn = event.target.value;
+
+    if (learn == "hello"){
+        alert("hola")
+    } else if (learn == "how are you"){
+        alert("cómo estás")
+    } if (learn == "no way"){
+        alert("de ninguna manera")
+    } else alert("Lee mas")
+
 }
