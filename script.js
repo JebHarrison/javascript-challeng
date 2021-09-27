@@ -47,13 +47,17 @@
 function calculateYearsUntilRetirement(event){
     const currentAge = event.target.value;
     const yearsLeft =  65 - currentAge;  
-    alert(inputValue)
+    alert(yearsLeft)
 }
 
 function GetGreetingInFrench(event){
-    const greeting = event.target.value;{
+    const greeting = event.target.value;
 
-    if (greeting = "hello")
-    alert("benjour")
-}
+    if (greeting == "hello"){
+    alert("bonjour")
+    } else if (greeting == "how are you"){
+    alert("comment ca va")
+    } else {
+    alert("word not recognised")
+    }
 }
