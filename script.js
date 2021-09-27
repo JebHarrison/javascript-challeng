@@ -73,5 +73,12 @@ function LearnSpanishBaby(event){
     } if (learn == "no way"){
         alert("de ninguna manera")
     } else alert("Lee mas")
+}
 
+
+
+function MinsToSeconds(event){
+    const convert = event.target.value;
+    const run = convert * 60; 
+    alert(run)
 }
