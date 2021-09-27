@@ -61,3 +61,8 @@ function GetGreetingInFrench(event){
     alert("word not recognised")
     }
 }
+
+
+function LearnSpanishBaby(event){
+    const learn = event.target.value;
+}
